@@ -109,11 +109,6 @@ _G.packer_plugins = {
     path = "/Users/carlosbreno/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  cmp_luasnip = {
-    loaded = true,
-    path = "/Users/carlosbreno/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
-    url = "https://github.com/saadparwaiz1/cmp_luasnip"
-  },
   ["feline.nvim"] = {
     config = { "\27LJ\2\nˆ\1\0\0\6\0\a\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\5\0006\3\0\0'\5\3\0B\3\2\0029\3\4\3B\3\1\2=\3\6\2B\0\2\1K\0\1\0\15components\1\0\0\bget*catppuccin.groups.integrations.feline\nsetup\vfeline\frequire\0" },
     loaded = true,
@@ -124,6 +119,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/carlosbreno/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/carlosbreno/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["go.nvim"] = {
     config = { "\27LJ\2\n0\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\ago\frequire\0" },
@@ -196,6 +196,11 @@ _G.packer_plugins = {
     path = "/Users/carlosbreno/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["phpfmt.nvim"] = {
+    loaded = true,
+    path = "/Users/carlosbreno/.local/share/nvim/site/pack/packer/start/phpfmt.nvim",
+    url = "https://github.com/yuchanns/phpfmt.nvim"
+  },
   playground = {
     loaded = true,
     path = "/Users/carlosbreno/.local/share/nvim/site/pack/packer/start/playground",
@@ -205,6 +210,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/carlosbreno/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["tabnine-nvim"] = {
+    loaded = true,
+    path = "/Users/carlosbreno/.local/share/nvim/site/pack/packer/start/tabnine-nvim",
+    url = "https://github.com/codota/tabnine-nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
